@@ -12,7 +12,7 @@ class Shoe
     puts "Your shoe is as good as new!"
     shoe.condition = "old"
     shoe.cobble
-    shoe.condition).to eq("new")
+    shoe.condition = "new")
   end 
   
   
