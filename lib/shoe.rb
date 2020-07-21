@@ -10,7 +10,7 @@ class Shoe
   
   def cobble
     puts "Your shoe is as good as new!"
-          shoe.condition = "old"
+    shoe.condition = "old"
       shoe.cobble
       expect(shoe.condition).to eq("new")
   end 
